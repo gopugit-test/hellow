@@ -3,7 +3,7 @@ orbs:
   terraform: circleci/terraform@3.2.1
 
 
-working_directory: &working_directory ~/co-infra-cc
+working_directory: &working_directory ~/hello
 
 fingerprint : &fingerprint "Some fingerprint"
 workflows:
